@@ -5,7 +5,7 @@ import numpy as np
 img = cv2.imread("images/park.png")
 
 print(type(img))
-print(img.shape) #has 3 channels R,G,B (0-255)*3
+print(img.shape) #prints (width, height,channel) ;has 3 channels R,G,B (0-255)*3
 # print(img)
 
 #to show the image
