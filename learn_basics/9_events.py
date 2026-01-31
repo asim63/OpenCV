@@ -19,8 +19,7 @@ def draw(event,x,y,flags,params):
     if event == 1:
        flag = True
        ix = x
-       iy = y
-       
+       iy = y   
        
     elif event == 0:
         if flag == True:
