@@ -1,7 +1,7 @@
 import cv2
 import numpy as np
 
-img = np.ones((512,512,3)) #creating a black image(intensity = 0; black)
+img = np.ones((512,512,3)) #zeros creates a black image(intensity = 0; black), ones create white image
 
 
 #RECTANGLE  
